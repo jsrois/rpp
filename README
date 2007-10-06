@@ -1,0 +1,12 @@
+Roberto Raggi's C++ parser
+
+Obtained from the qtjambi-gpl-src-4.3.0_01.tar.gz package
+
+To Build:
+qmake -recursive
+make
+
+look in the examples directory for a simple example
+
+./example foo.cpp (just outputs any found classes and its functions)
+./example -E foo.cpp (outputs the preprocessed file)
