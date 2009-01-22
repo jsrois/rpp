@@ -45,6 +45,7 @@
 
 #include <cstddef>
 #include <cstdlib>
+#include <cstring>
 #include <memory>
 
 template <class _Tp> class rxx_allocator {
